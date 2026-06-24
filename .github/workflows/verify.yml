@@ -24,12 +24,12 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v6 # this will pick up the packageManager field in package.json
 
-        uses: actions/setup-node@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: 24
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run tasks 
+      - name: Run tasks
         run: pnpm build
