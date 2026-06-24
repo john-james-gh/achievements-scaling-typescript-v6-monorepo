@@ -1,0 +1,22 @@
+{
+  "name": "@achievements-scaling-typescript-v6-monorepo/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.13.2",
+    "typescript": "^6.0.3"
+  }
+}

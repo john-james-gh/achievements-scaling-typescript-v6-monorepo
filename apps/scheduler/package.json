@@ -1,0 +1,19 @@
+{
+  "name": "@achievements-scaling-typescript-v6-monorepo/scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@achievements-scaling-typescript-v6-monorepo/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.13.2",
+    "typescript": "^6.0.3"
+  }
+}

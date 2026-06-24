@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+coverage/
+
+# production
+dist/
+
+# misc
+.DS_Store
+*.pem
+.agents
+.codex
+pnpm-lock.yaml
+
+# typescript
+*.tsbuildinfo
