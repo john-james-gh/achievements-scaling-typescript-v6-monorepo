@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./libs/shared" },
+    { "path": "./apps/worker" },
+    { "path": "./apps/scheduler" }
+  ]
+}

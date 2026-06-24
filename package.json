@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "build": "tsc -b",
+    "build:clean": "tsc -b --clean",
     "format": "prettier . --write && sort-package-json package.json apps/*/package.json libs/*/package.json",
-    "format:check": "prettier . --check && sort-package-json package.json apps/*/package.json libs/*/package.json --check",
-    "prune:dist": "pnpm --recursive exec rm -rf dist",
-    "prune:modules": "pnpm --recursive exec rm -rf node_modules"
+    "format:check": "prettier . --check && sort-package-json package.json apps/*/package.json libs/*/package.json --check"
   },
   "devDependencies": {
     "prettier": "^3.8.4",
-    "sort-package-json": "^4.0.0"
+    "sort-package-json": "^4.0.0",
+    "typescript": "^6.0.3"
   },
   "devEngines": {
     "packageManager": {

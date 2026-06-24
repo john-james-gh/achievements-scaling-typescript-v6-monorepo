@@ -4,9 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "typecheck": "tsc --noEmit"
+    "build": "tsc -b",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "@achievements-scaling-typescript-v6-monorepo/shared": "workspace:*"
